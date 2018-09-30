@@ -1,0 +1,43 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/photo-1538103252001-36e006edb41e.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    h1  {
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        .font-size(5);
+        text-align: center;
+        color: white;
+        padding: 30px;
+        max-width: 500px;
+    }
+    .remove {
+        display: none;
+    }
+    .social-icons {
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 38%;
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        i {
+            margin: 10px 10px 10px 0;
+            text-align: center;
+            transition: color .2s linear;
+            cursor: pointer;
+            &:hover {
+                color: #39dda2;
+            }
+        }
+    }
+}
+
